@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <title>Resume and Porfolio</title>
+</head>
+<body>
+    <!--Nav bar starts-->
+    <nav class="navbar navbar-inverse">
+        <ul class="nav navbar-nav mylist">
+            <li><a href="#aboutmeDiv" class="navitems">About Me</a></li>
+            <li><a href="#objectiveDiv" class="navitems">Objective</a></li>
+            <li><a href="#qualificationDiv" class="navitems">Qualification</a></li>
+            <li><a href="#skillsDiv" class="navitems">Skills</a></li>
+            <li><a href="#projectsDiv" class="navitems">Projects</a></li>
+            <li><a href="#contactDiv" class="navitems">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Nav bar ends-->
+
+    <!--Introduction Div starts-->
+    <div id="maindiv">
+        <div id="imageDiv">
+            <img id="displaypic" alt="mypicture" height="57%" width="55%">
+            <h1 class="headings" id="yourname"></h1>
+            <h4 class="headings" id="designation"></h4>
+        </div>
+    </div>
+    <!--Introduction Div ends-->
+
+    <!--About Me starts-->
+    <div class="alldivs" id="aboutmeDiv">
+
+        <h3 class="headers">About Me</h3>
+        <p id="intropara"></p>
+    </div>
+    <!--About Me ends-->
+
+    <!--Objective Div starts-->
+    <div class="alldivs" id="objectiveDiv">
+        <h3 class="headers">Objective</h3>
+        <p class="allpara" id="objpara"></p>
+        <h3 class="headers">My Short Introductory Video</h3>
+        <iframe id="video" width="560" height="315" frameborder="8" allowfullscreen></iframe>
+    </div>
+    <!--Objective Div ends-->
+
+    <!--Qualification Div starts-->
+<div class="alldivs" id="qualificationDiv">
+    <h3 class="headers">Qualification</h3>
+    <p class="allpara" id="current"></p>
+
+    <br><br>
+
+    <p class="allpara" id="inter"></p>
+
+    <br><br>
+
+    <p class="allpara" id="matric"></p>
+</div>
+    <!--Qualification Div ends-->
+
+        <!--Skills Div starts-->
+    <div class="alldivs" id="skillsDiv">
+        <h3 class="headers">Skills</h3>
+        <h5 class="minihead">Technical Skills</h5>
+        <ul id="tech">
+        </ul>
+
+        <h5 class="minihead">Interpersonal Skills</h5>
+        <ul id="personal">
+         </ul>
+    </div>
+    <!--Skills Div ends-->
+
+    <!--Projects Div starts-->
+    <div class="alldivs" id="projectsDiv">
+        <h3 class="headers">Projects</h3>
+
+        <h4 class="projHead" id="proj1name"></h4>
+        <p  id="proj1desc"></p>
+        <img id="proj1img" height="30%" width="40%">
+        <br>
+        <a id="proj1link" class="projLinks" target="_blank">Project Link</a>
+
+        <br><br>
+        <h4 class="projHead" id="proj2name"></h4>
+        <p id="proj2desc"></p>
+        <img id="proj2img" height="30%" width="40%">
+        <br>
+        <a id="proj2link" class="projLinks" target="_blank">Project Link</a>
+        <br><br>
+
+        <a href="project.html" id="allproj" target="_blank">See all projects</a>
+    </div>
+     <!--Projects Div ends-->
+
+    <!--Contact Div starts-->
+    <div class="alldivs" id="contactDiv">
+        <h3 class="headers">Contact</h3>
+        <h5>Contact Details</h5>
+        <p id="cont"></p>
+
+        <h5>Further Contact</h5>
+        <ul id="further">
+        </ul>
+    </div>
+    <!--Contact Div ends-->
+
+<script src="json file/myjson.js"></script>
+</body>
+</html>
